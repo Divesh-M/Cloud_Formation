@@ -1,6 +1,6 @@
 # Configuration file for constants
 
 # Replace with your actual OpenAI API key
-OPENAI_API_KEY = "sk-None-ZtjV0Z4obUM3Xd2uau2KT3BlbkFJCZSs1bhI9GmQjDqORl2J"
-file_path = "test.py"
-output_file= "docs1.md"
+OPENAI_API_KEY = "your_open_api_key"
+file_path = "example.py"
+output_file= "docs.md"
