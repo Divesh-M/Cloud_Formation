@@ -15,3 +15,6 @@ A tool to automatically generate detailed documentation for Python functions usi
    ```bash
    git clone <repository_url>
    cd project/
+
+## OPEN_API_KEY
+- Add YOUR_OPEN_API_KEY  in config file.
