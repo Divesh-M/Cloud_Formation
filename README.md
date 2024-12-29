@@ -18,3 +18,12 @@ A tool to automatically generate detailed documentation for Python functions usi
 
 ## OPEN_API_KEY
 - Add YOUR_OPEN_API_KEY  in config file.
+
+
+## Testing with Postman
+- File Input Example
+- Method: POST
+- URL: http://127.0.0.1:5000/generate-docs
+- Body:
+- Form-data:
+- Key: file, Value: (python file [Ex: test.py])
