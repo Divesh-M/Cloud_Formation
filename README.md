@@ -9,6 +9,8 @@ A tool to automatically generate detailed documentation for Python functions usi
 - Generates documentation using OpenAI GPT (via LangChain).
 - Outputs documentation in Markdown format.
 
+- For now we are not saving output in markdown format. You can feel free to change the code to save output in markdown format.
+
 ## Installation
 
 1. Clone the repository:
