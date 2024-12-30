@@ -111,7 +111,6 @@ Resources:
           import json
           secrets = json.load(open('/tmp/secrets.json'))
           OPENAI_API_KEY = secrets["OPENAI_API_KEY"]
-          MODEL = secrets["MODEL"]
           EOL
 
         
