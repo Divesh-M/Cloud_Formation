@@ -6,3 +6,4 @@ def fibonacci(n):
         fib_series.append(next_term)
     
     return fib_series
+
