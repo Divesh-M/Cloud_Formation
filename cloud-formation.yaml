@@ -126,12 +126,6 @@ Resources:
           cat <<EOL > docker-compose.yml
           version: "3.9"
           services:
-              ports:
-                - "6379:6379"
-                - "8002:8002"
-              volumes:
-                - redis_stack_data:/data
-
             backend:
               image: ${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com/personage/dodge-challenger:backend-latest
               ports:
@@ -141,8 +135,6 @@ Resources:
                 - /tmp/secrets.json:/tmp/secrets.json
               environment:
                 - PYTHONUNBUFFERED=1
-              depends_on:
-                - redis-stack
 
             
           EOL
