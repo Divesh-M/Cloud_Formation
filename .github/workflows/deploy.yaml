@@ -47,5 +47,5 @@ jobs:
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
           name: docker-ecr-ec2-stack
-          template: cloud-formation.yml
+          template: cloud-formation.yaml
           capabilities: CAPABILITY_NAMED_IAM
