@@ -5,7 +5,7 @@ def fibonacci(n):
         next_term = fib_series[-1] + fib_series[-2]
         fib_series.append(next_term)
 
-    print(fib_series)
+    # print(fib_series)
     
     return fib_series
 
