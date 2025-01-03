@@ -9,3 +9,4 @@ def format_docs(docs):
         str: Formatted Markdown string.
     """
     return "\n\n".join([f"### Function Documentation\n\n{doc}" for doc in docs])
+    

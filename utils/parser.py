@@ -5,7 +5,7 @@ def parse_code(code):
     Parses Python code to extract functions, arguments, and docstrings.
 
     Args:
-        code (str): The Python code as a string.
+        code (str): The Python code as a String.
 
     Returns:
         list: A list of dictionaries containing function details.

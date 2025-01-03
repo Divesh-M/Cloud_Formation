@@ -34,6 +34,7 @@ def generate_docs_with_langchain(parsed_code, api_key):
         )
     )
 
+    
     docs = []
     for func in parsed_code:
         print(func, "function")
