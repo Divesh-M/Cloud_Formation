@@ -18,8 +18,11 @@ A tool to automatically generate detailed documentation for Python functions usi
    git clone <repository_url>
    cd project/
 
-## OPEN_API_KEY
+## Creata a config file 
+- While executing code, create a config.py file.
 - Add YOUR_OPEN_API_KEY  in config file.
+- Example:
+- OPENAI_API_KEY = "YOUR_OPEN_API_KEY"
 
 
 ## Testing with Postman
@@ -29,3 +32,4 @@ A tool to automatically generate detailed documentation for Python functions usi
 - Body:
 - Form-data:
 - Key: file, Value: (python file [Ex: test.py])
+
